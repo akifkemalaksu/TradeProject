@@ -8,5 +8,6 @@ namespace TradeProject.Services.Catalog.Domain.Entities
         public string Description { get; set; }
         public int ProductId { get; set; }
         public int LanguageId { get; set; }
+        public virtual Product Product { get; set; }
     }
 }

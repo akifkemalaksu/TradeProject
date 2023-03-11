@@ -6,7 +6,7 @@ namespace TradeProject.Services.Catalog.Domain.Entities
     {
         public string Name { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
         public IEnumerable<OptionItem> Items { get; set; } = Enumerable.Empty<OptionItem>();
     }
 }
