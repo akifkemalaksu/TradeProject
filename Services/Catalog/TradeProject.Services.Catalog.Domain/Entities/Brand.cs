@@ -1,8 +1,10 @@
-﻿using TradeProject.Shared.Entities;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using TradeProject.Shared.Entities;
 
 namespace TradeProject.Services.Catalog.Domain.Entities
 {
-    public class Brand: BaseEntity<int>
+    [Table("Brands", Schema = "Catalog")]
+    public class Brand : BaseEntity<int>
     {
         public string Name { get; set; }
     }

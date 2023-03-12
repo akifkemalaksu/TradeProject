@@ -43,11 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeProject.Shared", "Shar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Evaluation", "Evaluation", "{46B001F4-04F8-4E29-B71C-BF0CC8F948BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeProject.Services.Catalog.Services.Abstractions", "Services\Catalog\TradeProject.Services.Catalog.Services.Abstractions\TradeProject.Services.Catalog.Services.Abstractions.csproj", "{66E43D14-3452-4A90-BCEB-DA5DE6846BC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeProject.Services.Catalog.Services.Abstractions", "Services\Catalog\TradeProject.Services.Catalog.Services.Abstractions\TradeProject.Services.Catalog.Services.Abstractions.csproj", "{66E43D14-3452-4A90-BCEB-DA5DE6846BC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeProject.Services.Catalog.Services", "Services\Catalog\TradeProject.Services.Catalog.Services\TradeProject.Services.Catalog.Services.csproj", "{6EEC4A52-4B1E-4EFA-B9CB-8D02A40EDB77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeProject.Services.Catalog.Services", "Services\Catalog\TradeProject.Services.Catalog.Services\TradeProject.Services.Catalog.Services.csproj", "{6EEC4A52-4B1E-4EFA-B9CB-8D02A40EDB77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeProject.Services.Catalog.Infrastructure", "Services\Catalog\TradeProject.Services.Catalog.Infrastructure\TradeProject.Services.Catalog.Infrastructure.csproj", "{FD995EFD-936B-4ED5-A740-1D92946F7B0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeProject.Services.Catalog.Infrastructure", "Services\Catalog\TradeProject.Services.Catalog.Infrastructure\TradeProject.Services.Catalog.Infrastructure.csproj", "{FD995EFD-936B-4ED5-A740-1D92946F7B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeProject.Services.Catalog.Logging", "Services\Catalog\TradeProject.Services.Catalog.Logging\TradeProject.Services.Catalog.Logging.csproj", "{CDF655CE-4EB8-432C-8194-3D9AF34F6E59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{FD995EFD-936B-4ED5-A740-1D92946F7B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD995EFD-936B-4ED5-A740-1D92946F7B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD995EFD-936B-4ED5-A740-1D92946F7B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF655CE-4EB8-432C-8194-3D9AF34F6E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF655CE-4EB8-432C-8194-3D9AF34F6E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF655CE-4EB8-432C-8194-3D9AF34F6E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF655CE-4EB8-432C-8194-3D9AF34F6E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +113,7 @@ Global
 		{66E43D14-3452-4A90-BCEB-DA5DE6846BC3} = {77E1227D-C9F8-4BDA-A65D-C55D53820FE7}
 		{6EEC4A52-4B1E-4EFA-B9CB-8D02A40EDB77} = {77E1227D-C9F8-4BDA-A65D-C55D53820FE7}
 		{FD995EFD-936B-4ED5-A740-1D92946F7B0C} = {77E1227D-C9F8-4BDA-A65D-C55D53820FE7}
+		{CDF655CE-4EB8-432C-8194-3D9AF34F6E59} = {77E1227D-C9F8-4BDA-A65D-C55D53820FE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5C95606E-70CF-403E-8C2C-8E39F80E2815}
